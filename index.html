@@ -19,8 +19,15 @@
         }
 
         .question {
-            font-size: 3rem;
             text-align: center;
+        }
+
+        .question p {
+            font-size: 3rem;
+        }
+
+        .question h2 {
+            font-size: 4rem;
         }
 
         .options {
@@ -61,19 +68,31 @@
     <div class="container">
         <div class="question">
             <p>Por simplificar la idea...</p>
-            <p>¿Te casas conmigo?</p>
+            <h2>¿Te casas conmigo?</h2>
         </div>
     </div>
 
-    <div class="container-fluid">
+
+    <div class="container-fluid mb-5 pb-5">
         <div class="container">
             <ul id="options" class="options">
-                <li><button id="yes" class="fs-3 shadow opacity-50 btn btn-secondary btn-lg" disabled>Sí</button></li>
-                <li><button id="no" class="fs-3 shadow btn btn-danger btn-lg">No</button></li>
-                <li><button id="ahh" class="fs-3 shadow btn btn-warning btn-lg">Aaaaah!</button></li>
-                <li id="idk" class="d-none"><button class="fs-3 shadow btn btn-secondary btn-lg">No lo sé!</button>
+                <li>
+                    <button id="yes" class="fs-2 shadow opacity-50 btn btn-secondary btn-lg" disabled>Sí</button>
                 </li>
-                <li id="sudo" class="d-none"><button class="fs-3 shadow btn btn-primary btn-lg">sudo sí</button></li>
+                <li>
+                    <button id="no" class="fs-2 sh adow btn btn-danger btn-lg">No
+                        no
+                        no...</button>
+                </li>
+                <li>
+                    <button id="ahh" class="fs-2 shadow btn btn-warning btn-lg">Aaaaah!</button>
+                </li>
+                <li id="idk" class="d-none">
+                    <button class="fs-2 shadow btn btn-secondary btn-lg">No lo sé!</button>
+                </li>
+                <li id="sudo" class="d-none">
+                    <button class="fs-2 shadow btn btn-primary btn-lg">sudo si</button>
+                </li>
             </ul>
         </div>
     </div>
